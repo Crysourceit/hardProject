@@ -1,20 +1,21 @@
+/* unit relative
 body{
     font-size: 10px;
 }
 div{
-    font-size: 1.5em;
+    font-size: 2em;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+*{
+    font-family: 'Itim', cursive;
 }
 p#message{
     color: rgb(255, 153, 0);
     font-style: italic;
 }
-h1.title{
-    color: pink;
-    font-size: 100%;
-
-}
-p{
-    font-weight: bolder;
+p.title{
+    color: rgb(7, 227, 7);
+    font-size: large;
 }
 h1{
     font-size: 50px;
