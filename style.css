@@ -2,16 +2,53 @@
 body{
     font-size: 10px;
 }
-div{
-    font-size: 2em;
-} */
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+div{
+    margin: 10px;
+}
+div.message{
+    color: rgb(242, 0, 255);
+    border: solid 2px black;
+    font-size: 1.5em;
+}
+div.b1{
+    background-color: rgb(252, 0, 0);
+    width: 100px;
+    height: 100px;
+    border-style: double;
+}
+div.b2{
+    background-color: lawngreen;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    
+}
+div.b3{
+    background-color: rgb(251, 255, 17);
+    width: 100px;
+    height: 100px;
+    border-style: dotted;
+    
+}
+div.b4{
+    background-color: rgb(4, 0, 252);
+    width: 100px;
+    height: 100px;
+    border-style: dashed;
+    
+}
 *{
     font-family: 'Itim', cursive;
+    /* background-color: #ffdd00; */
 }
 p#message{
-    color: rgb(255, 153, 0);
+    color:rgb(173, 5, 33);
     font-style: italic;
+    font-weight: normal;
 }
 p.title{
     color: rgb(7, 227, 7);
@@ -20,5 +57,16 @@ p.title{
 h1{
     font-size: 50px;
     color: rgb(198, 7, 227);
+    text-align: center;
+}
+h2{
+    color: rgb(7, 248, 232);
+    font-size: 20px;
+    font-style: oblique 20deg;
+}
+img{
+    width: 50%;
+    max-width: 500px;
+    min-width: 50px;
 
 }
