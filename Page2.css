@@ -1,0 +1,43 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body{
+    /* background-image: url('image/720p.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+    background: fixed center url("image/720p.jpg") ;
+    background-size: cover;
+}
+.box{
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+div{
+    margin: 5px;
+
+}
+
+li{
+    display: inline;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: gold;
+} 
+a:hover{
+    text-decoration: underline;
+    color: red;
+}

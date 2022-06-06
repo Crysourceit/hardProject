@@ -68,6 +68,7 @@ div{
 h1{
     font-size: 50px;
     color: rgb(198, 7, 227);
+    outline-color: black;
     text-align: center;
 }
 h2{
@@ -81,5 +82,17 @@ img{
     min-width: 50px;
     margin: 5px;
     
-
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: gold;
+} 
+a:hover{
+    text-decoration: underline;
+    color: red;
 }
