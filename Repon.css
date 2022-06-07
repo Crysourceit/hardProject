@@ -58,7 +58,7 @@ h1{
 /* Landscape */
 @media (max-height:500px) {
     body{
-        background-color: aqua;
+        background-color: silver;
     }
     #landscape h1{
         display: block;
