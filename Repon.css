@@ -11,7 +11,7 @@ body{
     color: white;
     text-align: center;
     padding: 100px;
-
+	
 }
 h1{
     display: none;
@@ -64,6 +64,7 @@ h1{
         display: block;
     }
 }
+
 
 a{
     text-decoration: none;
