@@ -36,8 +36,47 @@
     color: white;
     grid-area: footer;
 }
-.sidebar-item{
+.sidebar-item {
     background-color: blue;
     color: white;
     grid-area: sidebar;
+}
+
+ /* attibute selecter */
+a[target="_blank"] {
+    background-color: bisque;
+    color: aqua;
+}
+
+.customer {
+    display: inline-block;
+    margin: 1em 0;
+}
+
+input[type="email"] , [type="text"] {
+    width: 80%;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    color: #ffff;
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+li {
+    padding: 0.25rem;
+    margin: 00.25rem;
+    list-style: none;
+    font-size: 150%;
+}
+    
+li:nth-child(2n+1) {
+    background-color: #ffa500;
+}
+
+.is-required::after {
+    content: "*";
+    color: #ff0000;
+    padding-left: 2px;
 }
