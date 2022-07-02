@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+a{
+    text-decoration: none;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: gold;
+} 
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
