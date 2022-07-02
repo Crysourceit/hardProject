@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+a{
+    text-decoration: none;
+
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: gold;
+} 
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+body {
+    background-color: #333;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 2px solid black;
+    margin: 100px;
+
+    /* ย้ายตำแหน่งกล้อง */
+    /* transform: translate(100px,100px); */
+    /* transform: rotateY(30deg); */
+    /* transform: scale(1.5,1.7); */
+    transform: skew(10deg,20deg);
+}
+
+.box-2 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    /* transition-property: background-color;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s; */
+    /* transition: background-color 3s, width 3s, border-radius 3s, ease-in 3s; */
+    transition: all 3s, ease-in 3s;
+}
+
+.box-2:hover {
+    background-color: blue;
+    width: 300px;
+    border-radius: 50%;
+}

@@ -14,3 +14,32 @@ a:hover{
     color: red;
 }
 
+body {
+    background: #333;
+}
+
+:root {
+    --box: 3px solid red;
+    --theme-color: orange;
+    --shadow: 3px 3px var(--theme-color);
+    --spacing: 10px;
+}
+
+.box-1 {
+    border: var(--box);
+    background-color: var(--theme-color);
+    box-shadow: var(--shadow);
+    margin: var(--spacing);
+}
+
+.box-2 {
+    border: var(--box);
+    margin: var(--spacing);
+}
+
+.box-3 {
+    border: var(--box);
+    background-color: var(--theme-color);
+    box-shadow: var(--shadow);
+    margin: var(--spacing);
+}
